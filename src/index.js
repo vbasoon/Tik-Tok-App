@@ -12,7 +12,7 @@ const App = () => {
     <HashRouter>
       <Header />
       <Switch>
-        <Route path='/upload' component={Upload} />
+        <Route path='/upload/' component={Upload} />
         <Route path='/' exact component={Home} />
       </Switch>
       <Footer />
