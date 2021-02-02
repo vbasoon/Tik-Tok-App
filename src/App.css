@@ -1,7 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 26px;
+  padding: 10px;
+}
+
 .App {
   text-align: center;
 }
 
 .header {
-  background-color: yellow;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  }
+
+.followers-column {
+  background-color: red;
+  width: 500px;
+  height: 800px;
+}
+
+.feed {
+  background-color: white;
+  width: 500px;
+}
+
+.suggested-box {
+  background-color: blue;
+  width: 400px;
+  height: 400px;
 }
